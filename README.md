@@ -1,4 +1,4 @@
-# enemy-ai-lua
+# Enemy AI Modules
 
 A collection of scripts used to create the collective enemy ai used in "CONTRACTS".
 
