@@ -5,6 +5,11 @@ These scripts were mainly stored within their own folder within the ServerScript
 
 This was developed alongside a minorly modified version of the Endorsed Weapons Kit.
 
+There are some placeholder objects which show where in the project to serialize.
+For example:
+- the Sounds in SoundService
+- the Remote Events and Remote Functions
+
 Below is the documentation I created and hosted within the logic folder whilst working on this project.
 --[[
 
