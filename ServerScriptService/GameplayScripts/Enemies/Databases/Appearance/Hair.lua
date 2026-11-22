@@ -1,0 +1,28 @@
+local Hair = {
+	124808039442978,
+	83891537944658,
+	16876250105,
+	13743108491,
+	108137844851410,
+	118408289426222,
+	104425919258939,
+	123291083369114,
+	12299883619,
+	16630147,
+	323476364,
+	6323887109,
+	9243992729,
+	7193442167,
+	119876381171306,
+	105101736126764
+}
+
+function Hair.GetRandomHair(rng: Random?)
+	if rng then
+		return Hair[rng:NextInteger(1, #Hair)]
+	else
+		return Hair[math.random(1, #Hair)]
+	end
+end
+
+return Hair
